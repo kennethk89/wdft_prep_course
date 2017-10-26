@@ -2,7 +2,7 @@
 Exercise #1
 Create a variable named "numbers" and assign an empty array to it.
 */
-var numbers;
+var numbers = '';
 console.log('Hello World');
 
 /*
@@ -12,6 +12,8 @@ Using the loop provided for you below, use the array push method to insert the n
 
 for(var i=0;i<10;i++){
     //use the array push() method here.
+    
+    
 }
 
 
