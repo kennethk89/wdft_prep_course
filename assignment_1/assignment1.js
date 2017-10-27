@@ -3,7 +3,6 @@ Exercise #1
 Create a variable named "numbers" and assign an empty array to it.
 */
 var numbers = [];
-console.log('Hello World');
 
 /*
 Exercise #2
@@ -30,6 +29,7 @@ Exercise #5
 Create an empty object and assign it to the variable car below.
 Give the car object a property called "colour" and assign it the value of "black". Test that your code works correctly by outputting the "colour" property to the console. You should see the value "black" printed out.
 */
-var car;
+var car = {
+    colour: 'black'};
 
-
+console.log(car.colour);
