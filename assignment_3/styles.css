@@ -1,1 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
+
+    div#containerIntro, div#containerHighlights, div#containerExperiences, div#containerEducation, div#containerSkills, div#containerReferences {
+        border: 2px solid rgb(49, 49, 49);
+        margin: 10px;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    div#block1, div#block3, div#block6, div#block9, div#block12, div#block15 {
+        float: left;
+        width: 300px;
+    }
+
+    div#block2, div#block4, div#block7, div#block8, div#block10, div#block11, div#block13, div#block14, div#block16, div#block17 {
+        margin-left: 300px;
+    }
+
+    div#block5 {
+    }
